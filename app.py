@@ -21,7 +21,7 @@ ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "testpassword")
 GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY", "").strip()
 GOOGLE_PLACE_ID = os.getenv("GOOGLE_PLACE_ID", "").strip()
 GOOGLE_MAPS_LINK = os.getenv("GOOGLE_MAPS_LINK",
-    "https://www.google.com/maps/search/?api=1&query=Little%20Z%E2%80%99s%20Playhouse%20Daycare%2C%2041%20Lincoln%20St%2C%20Farmingdale%2C%20NY%2011735"
+    "https://www.google.com/maps/search/?api=1&query=Little+Z's+Playhouse+Daycare+Farmingdale+NY"
 ).strip()
 GOOGLE_CACHE_FILE = "google_rating_cache.json"
 GOOGLE_CACHE_TTL_SECONDS = 4 * 60 * 60  # 4 hours  [UPDATED]
