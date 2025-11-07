@@ -20,7 +20,9 @@ ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "testpassword")
 
 GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY", "").strip()
 GOOGLE_PLACE_ID = os.getenv("GOOGLE_PLACE_ID", "").strip()
-https://maps.app.goo.gl/mQf6G8oDaChsJab18?g_st=ipc
+GOOGLE_MAPS_LINK = os.getenv("GOOGLE_MAPS_LINK",
+    "https://www.google.com/maps/place/?q=place_id:ChIJYYhN7xEq6IkRJSQU0yqJpJY"
+).strip()
 GOOGLE_CACHE_FILE = "google_rating_cache.json"
 GOOGLE_CACHE_TTL_SECONDS = 4 * 60 * 60  # 4 hours  [UPDATED]
 
