@@ -355,6 +355,11 @@ def home():
     📞 <span>Call / Text 516-912-7375</span>
   </a>
 </div>
+<a class="btn" href="https://www.google.com/maps/place/Little+Z's+Playhouse+Daycare/@40.732396,-73.449153" 
+   target="_blank" rel="noopener" 
+   style="background:#fbbc04;display:inline-flex;align-items:center;gap:0.3rem;margin-top:1rem;">
+   ⭐ <span>See Reviews on Google</span>
+</a>
     </section>
 
     <div class="grid grid-2">
