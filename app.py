@@ -742,35 +742,7 @@ def admin_feedback():
     return render("admin", "Feedback Reviews", table_html)
 
 # -------- Auto-pick free port + Pythonista-friendly run --------
-@app.route("/reviews")
-def reviews():
-    return """
-    <html>
-      <head>
-        <title>Little Z's Reviews</title>
-        <style>
-          body { font-family: Arial; text-align: center; margin-top: 60px; }
-          a.button {
-              background-color: #4285F4;
-              color: white;
-              padding: 14px 22px;
-              text-decoration: none;
-              border-radius: 6px;
-              font-size: 18px;
-          }
-          a.button:hover { background-color: #3367D6; }
-        </style>
-      </head>
-      <body>
-        <h2>What Our Families Say 💕</h2>
-        <p>Click below to read our Google Reviews!</p>
-        <a class="button" href="https://maps.app.goo.gl/o15DMFnEbqzYdJN18?g_st=ipc"
-           target="_blank" rel="no opener">
-          See Reviews on Google
-        </a>
-      </body>
-    </html>
-    """
+
 def find_free_port(start=PREFERRED_PORT_START, end=PREFERRED_PORT_END):
     for p in range(start, end + 1):
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
