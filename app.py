@@ -249,6 +249,7 @@ BASE = """
       <a data-nav href="{{ url_for('programs') }}" class="{% if page=='programs' %}active{% endif %}">Programs</a>
       <a data-nav href="{{ url_for('contact') }}" class="{% if page=='contact' %}active{% endif %}">Contact</a>
       <a data-nav href="{{ url_for('testimonials') }}" class="{% if page=='testimonials' %}active{% endif %}">Testimonials</a>
+      <a data-nav href="{{ url_for('reviews') }}" class="{% if page=='reviews' %}active{% endif %}">Reviews</a>
       <a data-nav href="{{ url_for('feedback') }}" class="{% if page=='feedback' %}active{% endif %}">Leave Feedback</a>
       <a data-nav href="{{ url_for('admin_login') }}" class="{% if page=='admin' %}active{% endif %}">Admin</a>
     </nav>
