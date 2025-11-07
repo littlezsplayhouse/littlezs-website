@@ -757,8 +757,8 @@ def reviews():
       <body>
         <h2>What Our Families Say 💕</h2>
         <p>Click below to read our Google Reviews!</p>
-        <a class="button" href="https://maps.app.goo.gl/Dx3Nvx57hsTjAddr6?g_st=ipc" 
-           target="_blank" rel="noopener">
+        <a class="button" href="https://maps.app.goo.gl/o15DMFnEbqzYdJN18?g_st=ipc"
+           target="_blank" rel="no opener">
           See Reviews on Google
         </a>
       </body>
